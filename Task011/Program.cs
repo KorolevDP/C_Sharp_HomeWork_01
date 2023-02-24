@@ -26,7 +26,19 @@ int GetPower(int number, int power)
     return Result;
 }
 
+bool ValidatePower(int power)
+{
+    if(power < 0)
+    {
+        Console.Write("Error! Power must not be less than zero.");
+        return false;
+    }
+    return true;
+}
+
 int number = InputInt("Enter number");
 int power = InputInt("Enter power of number");
-
+if (ValidatePower(power))
+{
 Console.Write($"Number {number} in power {power} = {GetPower(number, power)}");
+}
