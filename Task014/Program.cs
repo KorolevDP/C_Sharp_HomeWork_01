@@ -42,5 +42,7 @@ int ShowNumberEvenElements(int[] array)
 
 int size = 4;
 int[] array = GenerateArray(size);
+Console.WriteLine();
+Console.WriteLine("Number even elements in array");
 ShowArray(array); 
 Console.Write($" --> {ShowNumberEvenElements(array)}");
