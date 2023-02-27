@@ -61,4 +61,5 @@ double DifMaxMin(double[] array)
 int size = InputInt("Enter size array:");
 double[] array = GenerateArray(size);
 Console.WriteLine();
+Console.WriteLine("Difference between the maximum and minimum elements");
 ShowArray(array); Console.Write($" --> {DifMaxMin(array)}");
