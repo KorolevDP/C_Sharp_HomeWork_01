@@ -1,5 +1,5 @@
-﻿// Задайте массив вещественных чисел.
-// Найдите разницу между максимальным и минимальным элементов массива.
+// ������� ������ ������������ �����.
+// ������� ������� ����� ������������ � ����������� ��������� �������.
 
 // [3, 7.4, 22.3, 2, 78] -> 76
 
@@ -62,4 +62,4 @@ int size = InputInt("Enter size array:");
 double[] array = GenerateArray(size);
 Console.WriteLine();
 Console.WriteLine("Difference between the maximum and minimum elements");
-ShowArray(array); Console.Write($" --> {DifMaxMin(array)}");
+ShowArray(array); Console.Write($" --> {DifMaxMin(array):f3}");
