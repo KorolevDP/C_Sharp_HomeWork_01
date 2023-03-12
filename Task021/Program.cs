@@ -52,12 +52,12 @@ double[] AverageColumn(int[,] array)
   double[] averagesArray = new double[array.GetLength(1)];
   for (int j = 0; j < array.GetLength(1); j++)
   {
-     double average = 0;
+     int sumCol = 0;
      for (int i = 0; i < array.GetLength(0); i++)
      {
-        average += array[i,j];
+        sumCol += array[i,j];
      }
-     averagesArray[j] = average / array.GetLength(0);
+     averagesArray[j] = sumCol / array.GetLength(0);
   }
   return averagesArray;
 }
@@ -66,7 +66,7 @@ void PrintArray (double[] array)
 {
     foreach (var item in array)
     {
-        Console.Write($"{item:F1}\t");
+        Console.Write($"{item:F2}\t");
     }
     Console.WriteLine();
 }
