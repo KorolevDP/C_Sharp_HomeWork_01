@@ -12,5 +12,5 @@ int FunctionAckermann(int m, int n)
 
 int m = 3, n = 2;
 Console.WriteLine();
-Console.Write($"{FunctionAckermann(m,n)}");
+Console.Write($"m = {m}, n = {n} ---> {FunctionAckermann(m,n)}");
 Console.WriteLine("\n");
