@@ -1,4 +1,4 @@
-﻿// Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
+﻿// Напишите программу, которая задаёт массив из N элементов и выводит их на экран.
 
 // 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
 // 6, 1, 33 -> [6, 1, 33]
@@ -37,6 +37,7 @@ void printArray(int[] array)
     Console.Write($"{array[array.Length - 1]}");
     Console.WriteLine("]");
 }
+
 int min = InputInt("Enter min of random");
 int max = InputInt("Enter max of random");
 int SizeArray = InputInt("Enter size array");

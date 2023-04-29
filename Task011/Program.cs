@@ -38,6 +38,7 @@ bool ValidatePower(int power)
 
 int number = InputInt("Enter number");
 int power = InputInt("Enter power of number");
+
 if (ValidatePower(power))
 {
 Console.Write($"Number {number} in power {power} = {GetPower(number, power)}");

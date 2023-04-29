@@ -25,12 +25,8 @@ int number = Promt("Enter number");
 
 if (number >= 100)
 {
-    while (number > 999)
-    {
-        number /= 10;
-    }
-    result = number % 10;
-    Console.Write($"Third digit >{result}");
+  thirdDigit(number);
+  Console.Write($"Third digit >{result}");
 }
 else
 {

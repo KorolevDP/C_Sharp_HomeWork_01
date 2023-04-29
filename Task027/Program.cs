@@ -10,7 +10,7 @@ int FunctionAckermann(int m, int n)
     return FunctionAckermann(m,n);
 }
 
-int m = 3, n = 2;
+int m = 2, n = 3;
 Console.WriteLine();
 Console.Write($"m = {m}, n = {n} ---> {FunctionAckermann(m,n)}");
 Console.WriteLine("\n");
